@@ -1,8 +1,30 @@
 {
   "name": "aiee---adaptive-ielts-engagement-engine",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.0",
+  "description": "An Algorithm-Driven Solution to Improve Engagement During Long IELTS Preparation Cycles",
   "type": "module",
+  "keywords": [
+    "ielts",
+    "education",
+    "adaptive-learning",
+    "engagement-engine",
+    "exam-preparation",
+    "react",
+    "typescript",
+    "ai",
+    "recommendation-system"
+  ],
+  "homepage": "https://github.com/anu31d/AIEE---Adaptive-IELTS-Engagement-Engine---Anuska-Dasgupta#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anu31d/AIEE---Adaptive-IELTS-Engagement-Engine---Anuska-Dasgupta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anu31d/AIEE---Adaptive-IELTS-Engagement-Engine---Anuska-Dasgupta/issues"
+  },
+  "author": "Anuska Dasgupta",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
