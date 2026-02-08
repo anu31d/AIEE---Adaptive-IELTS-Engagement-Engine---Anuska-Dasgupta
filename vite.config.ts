@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/AIEE/',
+      base: '/AIEE---Adaptive-IELTS-Engagement-Engine---Anuska-Dasgupta/',
       server: {
         port: 3000,
         host: '0.0.0.0',
