@@ -161,6 +161,24 @@ These metrics capture consistency and depth of engagement, directly correlating 
 4. **Open your browser:**
    Navigate to `http://localhost:3000` to see the app.
 
+### Deploying to GitHub Pages
+
+This project includes a GitHub Actions workflow for automatic deployment to GitHub Pages.
+
+1. **Push your code to GitHub**
+2. **Add your API key as a secret:**
+   - Go to your repository Settings → Secrets and variables → Actions
+   - Click "New repository secret"
+   - Name: `GEMINI_API_KEY`
+   - Value: Your Gemini API key
+
+3. **Enable GitHub Pages:**
+   - Go to Settings → Pages
+   - Source: Select "GitHub Actions"
+
+4. **The site will be automatically deployed** on every push to the `main` branch at:
+   `https://yourusername.github.io/AIEE/`
+
 ---
 
 ## 🛠️ Tech Stack
