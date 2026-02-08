@@ -1,6 +1,16 @@
 # Adaptive IELTS Engagement Engine (AIEE)
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![React](https://img.shields.io/badge/React-19.x-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-6.x-purple.svg)](https://vitejs.dev/)
+
 > **An Algorithm-Driven Solution to Improve Engagement During Long Preparation Cycles**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Beta-yellow" alt="Status" />
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" alt="PRs Welcome" />
+</p>
 
 ---
 
@@ -141,13 +151,74 @@ These metrics capture consistency and depth of engagement, directly correlating 
    GEMINI_API_KEY=your_api_key_here
    ```
 
+   > 💡 You can get a free Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
+
 3. **Run the development server:**
    ```bash
    npm run dev
    ```
+
+4. **Open your browser:**
+   Navigate to `http://localhost:3000` to see the app.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React 19, TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **AI:** Google Gemini API
+
+---
+
+## 📁 Project Structure
+
+```
+AIEE/
+├── algorithms/          # Core recommendation algorithms
+│   ├── optimizer.ts     # Greedy time optimization
+│   ├── recommendationEngine.ts
+│   └── skillGraph.ts    # DAG-based skill dependencies
+├── components/          # React UI components
+│   ├── Dashboard.tsx
+│   ├── Layout.tsx
+│   ├── Onboarding.tsx
+│   ├── ProgressView.tsx
+│   ├── TaskExecution.tsx
+│   └── TodaySprint.tsx
+├── services/            # External service integrations
+│   └── geminiService.ts
+├── App.tsx              # Main application component
+├── types.ts             # TypeScript type definitions
+└── constants.ts         # Application constants
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🏁 Conclusion
 
 The **Adaptive IELTS Engagement Engine** transforms IELTS preparation from passive consumption into an **intelligent, adaptive, habit-forming system**. By combining multiple algorithmic techniques, it addresses core engagement gaps and enables users to progress confidently toward their target scores.
+
+---
+
+<p align="center">Made with ❤️ for IELTS aspirants worldwide</p>
