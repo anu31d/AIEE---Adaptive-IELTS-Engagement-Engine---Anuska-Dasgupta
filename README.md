@@ -177,7 +177,7 @@ This project includes a GitHub Actions workflow for automatic deployment to GitH
    - Source: Select "GitHub Actions"
 
 4. **The site will be automatically deployed** on every push to the `main` branch at:
-   `https://yourusername.github.io/AIEE/`
+   `https://anu31d.github.io/AIEE---Adaptive-IELTS-Engagement-Engine---Anuska-Dasgupta/`
 
 ---
 
