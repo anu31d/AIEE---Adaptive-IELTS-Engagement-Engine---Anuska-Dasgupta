@@ -1,0 +1,8 @@
+{
+  "name": "AIEE - Adaptive IELTS Engagement Engine",
+  "description": "A production-ready adaptive learning platform for IELTS prep using algorithmic personalization to optimize daily study sessions.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
